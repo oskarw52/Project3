@@ -1,0 +1,92 @@
+* {
+  font-family: 'Comic Sans MS';
+  user-select: none;
+}
+:root {
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/2010328424759555731/7167A3ECE235D7D7E9CDD5E866E9C556F20C22BD/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+  background-size: cover;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 32px;
+}
+.text {
+  text-align: center;
+  color: white;
+  text-shadow: 
+        -1px -1px 0px black,  
+         1px -1px 0px black,
+        -1px  1px 0px black,
+         1px  1px 0px black;
+  user-select: none;
+}
+
+.card {
+  width: 600px;
+  height: 200px;
+  margin: 25px auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+
+}
+.card:hover {
+  cursor: pointer;
+  
+}
+.app {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.next {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: cyan;
+  margin: 25px 0;
+  font-size: 20px;
+}
+
+.cardText {
+  text-align: center;
+  color: black;
+}
+.square {
+  height: 40px;
+  width: 40px;
+}
+
+.question-container { 
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submit {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: cyan;
+  font-size: 20px;
+}
+
+#correct {
+  background-color: green;
+}
+
+#wrong {
+  background-color: red;
+}
